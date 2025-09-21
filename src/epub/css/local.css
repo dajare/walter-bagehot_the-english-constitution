@@ -1,2 +1,30 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
+
+/* Begin TABLE, chapter-1 */
+table{
+	border-collapse: collapse;
+	margin-bottom: 1em;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1em;
+}
+
+tbody td:last-child{
+	padding-left: 3em;
+	text-align: right;
+}
+
+thead{
+	font-size: smaller;
+}
+
+thead tr td,
+td:first-child{
+	text-align: center;
+}
+
+thead tr td:last-child{
+	padding-left: 3em;
+}
+/* end table, c1 */
