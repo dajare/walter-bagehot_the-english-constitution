@@ -28,3 +28,14 @@ thead tr td:last-child{
 	padding-left: 3em;
 }
 /* end table, c1 */
+
+/* Footer to chapter-1 */
+#chapter-1 div{
+	margin-top: 1em;
+	text-indent: initial;
+}
+
+[epub|type~="z3998:place"]{
+	font-variant: small-caps;
+}
+/* end footer */
