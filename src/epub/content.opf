@@ -57,6 +57,7 @@
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79063562</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">wpr</meta>
 		<dc:contributor id="artist">George Hayter</dc:contributor>
 		<meta property="file-as" refines="#artist">Hayter, George</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/George_Hayter</meta>
@@ -92,10 +93,11 @@
 		<item href="text/chapter-6.xhtml" id="chapter-6.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/chapter-7.xhtml" id="chapter-7.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/chapter-8.xhtml" id="chapter-8.xhtml" media-type="application/xhtml+xml"/>
-		<item href="text/chapter-9.xhtml" id="chapter-9.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/colophon.xhtml" id="colophon.xhtml" media-type="application/xhtml+xml" properties="svg"/>
 		<item href="text/endnotes.xhtml" id="endnotes.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/halftitlepage.xhtml" id="halftitlepage.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/imprint.xhtml" id="imprint.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+		<item href="text/introduction.xhtml" id="introduction.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/titlepage.xhtml" id="titlepage.xhtml" media-type="application/xhtml+xml" properties="svg"/>
 		<item href="text/uncopyright.xhtml" id="uncopyright.xhtml" media-type="application/xhtml+xml"/>
 		<item href="toc.xhtml" id="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
@@ -103,6 +105,8 @@
 	<spine>
 		<itemref idref="titlepage.xhtml"/>
 		<itemref idref="imprint.xhtml"/>
+		<itemref idref="introduction.xhtml"/>
+		<itemref idref="halftitlepage.xhtml"/>
 		<itemref idref="chapter-1.xhtml"/>
 		<itemref idref="chapter-2.xhtml"/>
 		<itemref idref="chapter-3.xhtml"/>
@@ -111,7 +115,6 @@
 		<itemref idref="chapter-6.xhtml"/>
 		<itemref idref="chapter-7.xhtml"/>
 		<itemref idref="chapter-8.xhtml"/>
-		<itemref idref="chapter-9.xhtml"/>
 		<itemref idref="endnotes.xhtml"/>
 		<itemref idref="colophon.xhtml"/>
 		<itemref idref="uncopyright.xhtml"/>

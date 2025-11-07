@@ -1,7 +1,7 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
-/* Begin TABLE, chapter-1 */
+/* Begin TABLE, introduction */
 table{
 	border-collapse: collapse;
 	margin: 1em auto;
@@ -26,8 +26,8 @@ thead tr th:last-child{
 }
 /* end table, c1 */
 
-/* Footer to chapter-1 */
-#chapter-1 div{
+/* Footer to introduction */
+#introduction div{
 	margin-top: 1em;
 	text-indent: initial;
 }
